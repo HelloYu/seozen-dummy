@@ -14,9 +14,6 @@
  * @since SEOZEN Dummy 1.0
  */
 
-
-echo "我是index.php";
-
 get_header();
 get_template_part('content');
 get_sidebar();
