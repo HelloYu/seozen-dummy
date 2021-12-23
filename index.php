@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The main template file
  *
@@ -15,6 +16,14 @@
  */
 
 get_header();
-get_template_part('content');
-get_sidebar();
+?>
+<section class="site-container">
+    <main class="site-main">
+        <?php get_template_part('content'); ?>
+    </main>
+    <aside class="site-aside">
+        <?php get_sidebar(); ?>
+    </aside>
+</section>
+<?php
 get_footer();
